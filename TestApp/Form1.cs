@@ -10,6 +10,8 @@ namespace TestApp
             MessageBox.Show($"Hello, {name ?? "Guest"}!");
 
             int? length = name?.Length;
+
+            // Using pattern matching with nullable types
         }
     }
 }
