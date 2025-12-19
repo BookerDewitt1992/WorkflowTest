@@ -2,5 +2,6 @@
 {
     Low,
     Medium,
-    High
+    High,
+    Butt
 }
