@@ -5,6 +5,11 @@ namespace TestApp
         public Form1()
         {
             InitializeComponent();
+            string? name = null;
+
+            MessageBox.Show($"Hello, {name ?? "Guest"}!");
+
+            int? length = name?.Length;
         }
     }
 }
